@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(247, 241, 241);
+    position: relative;
+}
+#cabecalho{
+    background-image: linear-gradient(to right, rgb(7, 1, 45) ,rgb(5, 5, 103), rgba(11, 9, 146, 0.551));
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 20px;
+   
+}
+#cabecalho h1{
+    margin-left: 50px;   
+}
+#main{
+    width: 100vw;
+   
+}
+#login{
+   
+    max-width: 50vw;
+    background-color: rgba(128, 128, 128, 0.219);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
+    padding: 30px;
+    margin: 30px;
+}
+
+
+
+
+footer{
+    text-align: center;
+    background-color: rgb(10, 17, 103);
+    color: white;
+}
+
+
