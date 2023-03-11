@@ -6,25 +6,57 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-menu{
+i#MenuBurguer{
+    text-align: center;
     background-color: rgb(17, 17, 64);
-    font-size: 1.2em;
-}
-menu >ul>li{
-    display: inline-block;
-    padding: 15px 30px;
-   
-}
-menu>ul>li>a{
     color: white;
-    text-decoration: none;
+    font-size: 2em;
+    display: block;
     padding: 10px;
+    cursor: pointer;
 }
-menu>ul>li:hover{
-    background-color: rgb(255, 255, 255);
+
+menu{
+    font-size: 1.2em;
+    display: none;
 }
-menu a:hover{
-    color: black;
+menu >ul{
+    list-style-type: none;
 }
+menu >ul>li>a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color:rgb(17, 17, 64);
+    color: white;
+}
+menu>ul>li>a:hover{
+    background-color: white;
+    color: rgb(17, 17, 64);;
+}
+.totais{
+margin: auto;
+margin-top: 10px;
+    width: 95vw;
+    height: 100px;
+    background-color: rgba(211, 211, 211, 0.442);
+    border-radius: 10px;
+}
+.rel{
+   margin: auto;
+    width: 95vw;
+    height: 70vh;
+    margin-top: 10px;
+    background-color: rgba(211, 211, 211, 0.442);
+    border-radius: 15px;
+}
+p{
+    text-align: center;
+}
+
+
+
+
 
 

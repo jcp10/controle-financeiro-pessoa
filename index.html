@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CFP</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
 </head>
 <body>
     <main>
         <header>
-            <menu>
+            <i id="MenuBurguer" class="material-icons" onclick="OcultarMenu()">menu</i>
+            <menu id="itens">
                 <ul>
                     <li><a href="#">Pagina Inicial</a></li>
                     <li><a href="#">Receita</a></li>
@@ -19,12 +22,28 @@
                     <li><a href="#">Planejamento</a></li>
                     <li><a href="#">Configuração</a></li>
                 </ul>
-
             </menu>
         </header>
         <section>
-            <!--relatórios -->
+            <p>
+                <div class="totais"><p>Relatórios</p></div>
+            </p>
         </section>
+        <section>
+            <div class="rel"><p>Relatórios</p></div>
+          
+        </section>
+        
     </main>
+
+    <script>
+        function OcultarMenu(){
+            if (itens.style.display=='block'){
+                itens.style.display='none'
+            }else{
+                itens.style.display='block'
+            }
+        }
+    </script>
 </body>
 </html>
