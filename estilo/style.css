@@ -33,27 +33,11 @@ menu >ul>li>a{
 }
 menu>ul>li>a:hover{
     background-color: white;
-    color: rgb(17, 17, 64);;
+    color: rgb(17, 17, 64);
+    transition: .5s ease-in;
 }
-.totais{
-margin: auto;
-margin-top: 10px;
-    width: 95vw;
-    height: 100px;
-    background-color: rgba(211, 211, 211, 0.442);
-    border-radius: 10px;
-}
-.rel{
-   margin: auto;
-    width: 95vw;
-    height: 70vh;
-    margin-top: 10px;
-    background-color: rgba(211, 211, 211, 0.442);
-    border-radius: 15px;
-}
-p{
-    text-align: center;
-}
+
+
 
 
 
